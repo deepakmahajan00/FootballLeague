@@ -1,0 +1,11 @@
+services:
+
+    symfonytest.app.service.league_service:
+        class: AppBundle\Service\LeagueService
+        arguments:
+            - "@symfonytest.app.repositories.league_repository"
+
+    symfonytest.app.service.team_service:
+        class: AppBundle\Service\TeamService
+        arguments:
+            - "@symfonytest.app.repositories.team_repository"

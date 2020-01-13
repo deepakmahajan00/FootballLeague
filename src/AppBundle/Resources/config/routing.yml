@@ -1,0 +1,3 @@
+AppBundle_createLeague:
+    pattern:  /api/v1/listLeague
+    defaults: { _controller: AppBundle:League:listLeagues }

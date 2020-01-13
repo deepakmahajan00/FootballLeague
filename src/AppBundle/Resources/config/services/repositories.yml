@@ -1,0 +1,12 @@
+services:
+    symfonytest.app.repositories.league_repository:
+        class: Doctrine\ORM\EntityRepository
+        factory_service: doctrine.orm.default_entity_manager
+        factory_method: getRepository
+        arguments: [AppBundle\Entity\League]
+
+    symfonytest.app.repositories.team_repository:
+        class: Doctrine\ORM\EntityRepository
+        factory_service: doctrine.orm.default_entity_manager
+        factory_method: getRepository
+        arguments: [AppBundle\Entity\Team]

@@ -1,0 +1,6 @@
+services:
+    symfonytest.app.league_controller:
+        class: AppBundle\Controller\LeagueController
+
+    symfonytest.app.team_controller:
+        class: AppBundle\Controller\TeamController
