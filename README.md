@@ -1,5 +1,4 @@
-<img align="right" width="175px" src="https://camo.githubusercontent.com/7e57ebd8fa0125653e3b41c87fc4d3a6b61964fc/687474703a2f2f692e696d6775722e636f6d2f7663355a56714c2e706e673f32" />
-=============
+
 
 
 This is an unofficial, open-source and community-driven boilerplate for Symfony projects that run on [Docker](https://www.docker.com/). It's an attempt of standardizing and making it easier to bootstrap Symfony applications ready for development and production environments. The main tools used are Symfony, Docker and Docker Compose. Other things included are:
@@ -7,7 +6,6 @@ This is an unofficial, open-source and community-driven boilerplate for Symfony 
 - PHP 7.1 + PHP-FPM
 - Nginx
 - Xdebug
-- Opcache
 
 ## Installation
 
