@@ -1,5 +1,10 @@
 
-## Symfony 3 - UK Premier Football League
+## Symfony 3 - Premier Football League
+Football League, where many leagues and teams.
+
+In regards to the relationships between a league and a football team you can assume that a football
+league has many teams and a team can only play in a single football league.
+
 RESTful API for football leagues and teams. Team names from the UK Premier League! We would like you to create the following endpoints in the
 API:
 1. Get a list of football teams in a single league
@@ -8,8 +13,7 @@ API:
 4. Delete a football league
 
 
-In regards to the relationships between a league and a football team you can assume that a football
-league has many teams and a team can only play in a single football league.
+
 
 This is an unofficial, open-source and community-driven boilerplate for Symfony projects that run on [Docker](https://www.docker.com/). It's an attempt of standardizing and making it easier to bootstrap Symfony applications ready for development and production environments. The main tools used are Symfony, Docker and Docker Compose. Other things included are:
 
