@@ -1,5 +1,5 @@
 
-## Project
+## Symfony 3 - UK Premier Football League
 RESTful API for football leagues and teams. Team names from the UK Premier League! We would like you to create the following endpoints in the
 API:
 1. Get a list of football teams in a single league
