@@ -6,6 +6,8 @@ API:
 2. Create a football team
 3. Modify all attributes of a football team
 4. Delete a football league
+
+
 In regards to the relationships between a league and a football team you can assume that a football
 league has many teams and a team can only play in a single football league.
 
